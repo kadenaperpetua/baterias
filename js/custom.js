@@ -28,7 +28,7 @@ function calculateCenter() {
 function loadGoogleMap(){
     var script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDfNrPwreCP4zkOOUyehuUYrbJFEhaK9IU?v=3.exp&' + 'callback=initialize';
+    script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAsT-ySlHBm52PDIV8qB2TclzdPbs_daa8&' + 'callback=initialize';
     document.body.appendChild(script);
 }
 
