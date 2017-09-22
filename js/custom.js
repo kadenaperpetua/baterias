@@ -1,16 +1,24 @@
 
 // google map
-var map = '';
+let map = '';
 var center;
 
 function initialize() {
-    var mapOptions = {
+
+    let mapCenter = new google.maps.LatLng(-0.255723, -79.162218)
+
+    let mapOptions = {
       zoom: 16,
-      center: new google.maps.LatLng(-0.255723, -79.162218),
+      center: mapCenter,
       scrollwheel: false
     };
 
     map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
+
+    let marker = new google.maps.Marker({
+      position: mapCenter,
+      map: map
+    });
 
     google.maps.event.addDomListener(map, 'idle', function() {
         calculateCenter();
