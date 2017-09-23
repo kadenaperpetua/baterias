@@ -1,10 +1,3 @@
-/*
-
-Template 2081 Solution
-
-http://www.tooplate.com/view/2081-solution
-
-*/
 
 body
 	{
@@ -78,7 +71,7 @@ p
 .navbar-default .navbar-toggle:focus { background-color: transparent }
 /* end navigation */
 
-/* start home */        
+/* start home */
 #home
 	{
       padding-top: 65px;
@@ -104,7 +97,7 @@ p
   display: block;
 }
 .flexslider .slides > li {
-  display: none;  
+  display: none;
   padding: 0;
   position: relative;
   -webkit-backface-visibility: hidden;
@@ -626,8 +619,8 @@ footer .social-icon
     }
     .flexslider h1 { font-size: 26px; }
     .flexslider h2 { font-size: 18px; }
-    .templatemo-slider-btn { 
-        margin-top: 10px; 
+    .templatemo-slider-btn {
+        margin-top: 10px;
         width: 180px;
         height: 40px;
         padding-top: 8px;
@@ -636,14 +629,14 @@ footer .social-icon
 /* end templatemo 768 media quires */
 
 /* start templatemo 600 media quires */
-@media only screen and ( max-width: 640px ) {   
+@media only screen and ( max-width: 640px ) {
     .flexslider h1 { font-size: 20px; }
     .flexslider h2 { font-size: 14px; }
     .templatemo-slider-btn {
         width: auto;
         height: auto;
         padding: 10px 20px;
-        margin-top: 10px; 
+        margin-top: 10px;
     }
 }
 /* end templatemo 600 media quires */
@@ -654,6 +647,6 @@ footer .social-icon
         {
             padding-top: 40px;
         }
-    
+
 }
 /* end templatemo 360 media quires */
