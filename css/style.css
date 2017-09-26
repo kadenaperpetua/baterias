@@ -28,6 +28,12 @@ p
 /* end all section */
 
 /* start nagivation */
+
+.logo-img
+    {
+        max-width: 80%;
+        height: auto !important;
+    }
 .navbar-default
     {
         background: #fff;
