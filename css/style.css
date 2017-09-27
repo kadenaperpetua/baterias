@@ -29,11 +29,7 @@ p
 
 /* start nagivation */
 
-.logo-img
-    {
-        max-width: 50% !important;
-        height: auto !important;
-    }
+
 .navbar-default
     {
         background: #fff;
